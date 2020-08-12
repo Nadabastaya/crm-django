@@ -4,7 +4,7 @@ from django.http import HttpResponse
 def home(request):
     return render(request, 'accounts/dashboard.html')
 
-def costumer(request):
+def customer(request):
     return render(request, 'accounts/customer.html')
 
 def products(request):
